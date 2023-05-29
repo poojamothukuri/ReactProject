@@ -1,0 +1,62 @@
+.poojapinky__navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+.poojapinky__navbar-links{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.poojapinky__navbar-links_logo{
+    margin-right: 2rem;
+
+}
+.poojapinky__navbar-links_logo img{
+    width: 300px;
+    height: 300px;
+    
+}
+
+.poojapinky__navbar-links_container{
+    display: flex;
+    flex-direction: row;
+
+}
+.poojapinky__navbar-sign{
+    /*sign in button*/
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+
+}
+.poojapinky__navbar-links_container p,
+.poojapinky__navbar-sign p,
+.poojapinky__navbar-menu_container p {
+    font-family: var(--font-family);
+    font-weight : 100;
+    font-size: 50px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 2rem;
+    cursor: pointer;
+    margin-left: 100px;
+
+}
+.poojapinky__navbar-sign button,
+.poojapinky__navbar-menu_container button{
+    padding: 0.5 rem 1rem;
+    color:rgb(11, 11, 11);
+    background: #20cbff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    left: 1153px;
+    top: 55px;
+
+    border-radius: 5px;
+
+
+}
